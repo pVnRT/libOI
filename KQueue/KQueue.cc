@@ -5,7 +5,7 @@ typedef long double ld;
 
 template <class T>
 struct KQueue {
-    deque<pair<int, T>> DQ;
+    deque<pair<T, int>> DQ;
 
     void push(T val) {
         int q = 0;
